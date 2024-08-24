@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	color: white;
+	background-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+main {
+	max-height: 100%;
+	
+}
+
+h1 {
+	font-weight: 400;	
+	font-style: normal;
+	text-align: center;
+	padding: 50px;
+}
+
+h2 {
+	font-size: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+h3 { 
+color: magenta;
+	
+}
+
+
