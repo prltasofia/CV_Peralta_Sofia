@@ -1,5 +1,5 @@
-# Buenas! 
-Esto es lo que fui armando hasta ahora con html además empecé a ver un poco de css
+# TP1 // Descripción
 
-04/09 - Apliqué las correcciones de la clase del lunes
+- Este proyecto fue realizado para la materia Computación III bajo la consigna de crear un sitio web único, en mi caso utilicé recursos minimalistas haciendo enfoque en el uso del contraste de colores. 
 
+- Resolución de pantalla 1920x1080 en DreamWeaver
