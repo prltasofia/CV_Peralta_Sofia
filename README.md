@@ -1,5 +1,9 @@
-# TP1 // Descripción
+# TP1 // Sofia Peralta
 
-- Este proyecto fue realizado para la materia Computación III bajo la consigna de crear un sitio web único, en mi caso utilicé recursos minimalistas haciendo enfoque en el uso del contraste de colores. 
+## Descripción
+
+- Este proyecto fue realizado para la materia Computación III bajo la consigna de crear un sitio web único, en mi caso utilicé recursos minimalistas haciendo enfoque en el uso del contraste de colores.
+
+###Resolución
 
 - Resolución de pantalla 1920x1080 en DreamWeaver
