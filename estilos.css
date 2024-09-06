@@ -33,9 +33,9 @@
 .navbar ul {
 	display: flex;
 	list-style: none;
-	background-color: black;
+	background-color: black; /* no hace falta aplicarlo porque ya está tomando el color del body */
 	text-align: center;
-	align-items: center;
+	align-items: center; /* no hace nada */
 	justify-content: center;
 	
 	}
@@ -45,7 +45,7 @@
 	text-align: center;
 	color: white;
 	text-decoration: none;
-	padding: 20px 170px 
+	padding: 20px 170px /* 170px es un montón, hay una propiedad de flex que distribuye el espacio entre los elementos y es más eficiente */
 	}
 
 .navbar a:hover {
@@ -55,11 +55,11 @@
 
 h1 { 
 	font-family: "IBM Plex Sans", sans-serif;
-	font-weight: 700;
+	font-weight: 700; /* no cambia nada */
 	font-size: 70px;
 	text-align: center;
 	padding: 100px;
-	color: white;
+	color: white; /* ya lo estableciste en body, no repitas propiedades */
 
 	}
 
@@ -69,7 +69,7 @@ h2 {
 	font-size: 20px;
 	padding: 20px;
 	text-align: center;	
-	color: white;
+	color: white; /* propiedad repetida */
 	}
 
 h3 { 
@@ -109,7 +109,7 @@ h3 {
 	align-items: baseline;
 	margin: 70px;
 	padding: 60px;
-	max-width: 100%;
+	max-width: 100%; /* el max-width solo es efectivo cuando se usan medidas fijas porque establece un límite, si lo que querés es el 100% con width solo está bien */
 	
 }
 
@@ -123,16 +123,16 @@ h3 {
 }
 .bloqueinfo {
 	border: 1px solid;
-	border-color: white;
+	border-color: white; /* repetido  */
 	border-radius: 80px;
-	height: 550px;
+	height: 550px; /* no se establecen anchos y altos fijos porque después se complica en la etapa de responsive, lo mejor es dar el tamaño desde padding */
 	width: 600px;
 	padding: 20px 0px 0px 0px;
 	
 }
 
 .info-container h3 {
-	display: flex;
+	display: flex; /* en este caso, flex no está haciendo nada */
 	padding: 10px 0px 10px 80px;
 }
 
@@ -152,7 +152,7 @@ h3 {
 
 .bloquecontacto li {
 	display: flex;
-	flex-direction: column;
+	flex-direction: column; /* no hace nada */
 	border: 1px solid;
 	border-color: magenta;
 	border-radius: 80px;
@@ -160,7 +160,7 @@ h3 {
 	width: 250px;
 	align-items: center;
 	justify-content: center;
-	padding: 5px;
+	padding: 5px; /* no hace nada */
 }
 
 .bloquecontacto li:hover {
