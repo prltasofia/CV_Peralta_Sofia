@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* { 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+body {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+a {
+	font-family: "Space Mono", monospace;
+	color: white;
+	font-size: 1em;	
+}
+
+p {
+	font-family: "IBM Plex Sans", sans-serif;
+	font-weight: 400;
+	font-size: 1.5em;
+	color: white;
+}
+
+span {
+	font-size: 1.3em;
+	color: magenta;
+}
+
+.contenedor-decorativo {
+	position: fixed;
+	left: 605px;
+	top: 605px;
+}
+
+/*----- Nav -----*/
+
+.navbar {
+	background-color: transparent;
+	display: flex;
+	align-content: stretch;
+	justify-content: space-between;
+	gap: 30px;	
+}
+
+
+.navbar li:hover {
+	background-color: magenta;
+	border-radius: 10px;
+	transition: 0.6s;
+}
+
+.navbar ul {
+	display: flex;
+	font-size: 1em;
+	padding:  10px 50px;
+	flex-direction: row;
+}
+
+.navbar a {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-style: normal;
+	display: flex;
+	color: white;
+	font-size: 1em;
+	padding:  10px 50px;
+	flex-direction: row;
+}
+
+/*----- Nav -----*/
+
+h1 { 
+	font-family: "Space Mono", monospace;
+	color: white;
+	font-size: 4em;
+}
+
+.inicio-contenedor {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;	
+	margin: 300px;
+	padding: 40px 62px;
+}
+
+.inicio-contenedor h1 {
+	display: flex;
+	justify-content:center;
+	align-content: center;
+	color: white;
+}
+
+.principal h2 {
+	display: flex;
+	justify-content: center;
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	font-style: italic;
+	color: white;
+}
+
+/*----- SOBRE MI -----*/
+
+.contenedor-iconos {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 240px 260px;
+	padding: 90px;
+}
+
+.sobre-mi {
+	width: 35%;
+	height: auto;
+	border-radius: 84px;
+	border: 5px solid black;
+	box-shadow: 12px 12px;
+	background: magenta;
+	position: relative;
+	left: 310px;
+	bottom: 20px;	
+}
+
+.sobre-mi p {
+	margin: 30px;
+	padding: 15px;
+	font-weight: 800;
+	color: black;
+	letter-spacing: -0.75px;
+}
+
+	
+.iconos h1 { 
+	margin: 0px 20px;
+}
+
+/* CONTACTO */ 
+
+.formulario h2 {
+	font-family: "Space Mono", monospace;
+	color: white;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.formulario-contenedor {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.formulario {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	background: magenta;
+	gap: 40px;
+	padding: 20px 30px;
+	width: 30%;
+	border-radius: 84px;
+	border: 5px solid black;
+	box-shadow: 12px 12px;
+	margin: 97px 260px;
+}
+
+form {	
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+input {
+	display: flex;
+	align-items: flex-start;
+	padding: 25px 55px;
+	font-family: "IBM Plex Sans", sans-serif;
+	font-size: 1em;
+	border-radius: 20px;
+}
+
+/*-----CONOCEME-----*/
+
+.iconos img { 
+	padding: 0px 20px;
+	position:relative;
+	top: 110%;
+}
+
+/*----- TRABAJOS -----*/
+
+.contendor-descripcion {
+	width: 40%;	
+}
+
+.trabajos img {
+	
+	border-radius: 36px;
+}
+.contenedor-estructura {
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 70px 25px;	
+}
+
+/*----- FLECHA VOLVER  -----*/
+
+.flecha {
+	margin: 0px 70px;
+}
+
+/*----- TEXTOS EN TRABAJOS -----*/
+
+.contendor-descripcion {
+	width: 40%;
+}
+
+
+.contendor-descripcion h1 {
+	letter-spacing: -0.75px;
+	line-height: 90%;
+	margin: 20px 0px;
+	}
+
+.contendor-trabajos{ 
+	display: flex;
+	flex-direction: row;
+	height: auto;
+	width:  100%;
+	margin: 120px 140px;
+	
+}
+
+.contenedor-descripcion ul li {
+	border: 2px solid;
+	font-weight: 800;
+	border-color: white;
+	border-radius: 80px;
+	padding: 10px 20px;
+	margin: 40px 0px;
+	width: 40%;
+	
+}
+
+/*----- GRID -----*/
+
+.grid-trabajos {
+	max-width: 50%;
+	height: 700px;
+}
+
+.grid-items {
+	display: grid;
+	grid-template: 38% 38% / 52% 34%;
+}
+
+.grid-items img {
+	border-radius: 30px;
+	
+}
+
+
+/*----- FOOTER -----*/
+
+.footer-legal{
+	position: fixed;
+	z-index: 0;
+	font-family: "IBM Plex Sans", sans-serif; 
+	color: black;
+	background-color: magenta;
+	text-align: center;
+	padding: 2px;
+	bottom: 0px;
+	width: 100%;
+}
+
+
+/*----- FUENTES -----*/
+
+.space-mono-regular {
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.space-mono-bold {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.space-mono-regular-italic {
+	font-family: "Space Mono", monospace;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.space-mono-bold-italic {
+	font-family: "Space Mono", monospace;
+	font-weight: 700;
+	font-style: italic;
+}
+
