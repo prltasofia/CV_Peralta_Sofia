@@ -1,1 +1,0 @@
-https://github.com/prltasofia/CV_Peralta_Sofia
