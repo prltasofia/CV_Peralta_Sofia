@@ -60,6 +60,7 @@ h3 {
 /*----- Nav -----*/
 
 .navbar {
+	width: 100%;
 	background-color: transparent;
 	display: flex;
 	align-content: stretch;
@@ -143,7 +144,10 @@ h3 {
 }
 
 .contenedor-iconos {
+	width: 50%;
+  	height: 90vh;
 	display: flex;
+ 	justify-content:center;
 	align-items: center;
 	align-content:center;
 	width: 50%;
@@ -151,6 +155,7 @@ h3 {
 
 .sobre-mi {
 	width: 40%;
+	max-height: 50%;
 	border-radius: 84px;
 	border: 5px solid black;
 	box-shadow: 12px 12px;
@@ -227,14 +232,18 @@ input {
 	top: 110%;
 }
 
-/*----- TRABAJOS -----*/
+/*----- TRABAJOS GALERIA -----*/
+
+.contenedor-estructura {
+
+
+}
 
 .contendor-descripcion {
 	width: 40%;	
 }
 
 .trabajos img {
-	
 	border-radius: 36px;
 }
 .contenedor-estructura {
@@ -316,6 +325,12 @@ input {
 	width: 100%;
 }
 
+/*----- MEDIA -----*/
+@media screen and (max-width: 600px) {
+
+    body {
+        margin: 0px 25px;
+}
 
 /*----- FUENTES -----*/
 
