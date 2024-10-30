@@ -57,6 +57,7 @@ h3 {
 	font-size: 1.2em;
 }
 
+
 /*----- Nav -----*/
 
 .navbar {
@@ -263,9 +264,6 @@ input {
 }
 
 
-
-
-
 /*----- TRABAJOS GALERIA -----*/
 
 
@@ -274,9 +272,9 @@ input {
 	flex-direction: column;
 	width: 100%;
 	height: 90vh;
-   justify-content:center;
-  align-items: center;
-  align-content:center;
+   	justify-content:center;
+ 	align-items: center;
+  	align-content:center;
   
 }
 
@@ -334,10 +332,11 @@ input {
 }
 
 /*----- MEDIA -----*/
+
 @media screen and (max-width: 600px) {
 
     body {
-        margin: 0px 25px;
+        margin: 0px 30px;
 }
 
 /*----- FUENTES -----*/
