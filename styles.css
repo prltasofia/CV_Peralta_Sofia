@@ -232,25 +232,52 @@ input {
 	top: 110%;
 }
 
-/*----- TRABAJOS GALERIA -----*/
+/*----- GRID -----*/
 
-.contenedor-estructura {
+.grid-items {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 1em;
 
+}
 
+.grid-items img {
+	border-radius: 36px;
 }
 
 .contendor-descripcion {
 	width: 40%;	
 }
 
+.trabajos {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 1em;
+}
+
 .trabajos img {
 	border-radius: 36px;
+
 }
+
+
+
+
+
+/*----- TRABAJOS GALERIA -----*/
+
+
 .contenedor-estructura {
 	display: flex;
 	flex-direction: column;
-	width: 90%;
-	margin: 70px 25px;	
+	width: 100%;
+	height: 90vh;
+   justify-content:center;
+  align-items: center;
+  align-content:center;
+  
 }
 
 /*----- FLECHA VOLVER  -----*/
@@ -275,9 +302,7 @@ input {
 .contendor-trabajos{ 
 	display: flex;
 	flex-direction: row;
-	height: auto;
-	width:  100%;
-	margin: 120px 140px;
+	justify-content: center;
 	
 }
 
@@ -289,23 +314,6 @@ input {
 	padding: 10px 20px;
 	margin: 40px 0px;
 	width: 40%;
-	
-}
-
-/*----- GRID -----*/
-
-.grid-trabajos {
-	max-width: 100%;
-	height: 700px;
-}
-
-.grid-items {
-	display: grid;
-	grid-template: 38% 38% / 52% 34%;
-}
-
-.grid-items img {
-	border-radius: 30px;
 	
 }
 
