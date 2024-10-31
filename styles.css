@@ -66,12 +66,9 @@ h3 {
 /*----- Nav -----*/
 
 .navbar {
-	width: 100%;
-	background-color: transparent;
 	display: flex;
 	align-content: stretch;
 	justify-content: space-between;
-	gap: 30px;	
 }
 
 
@@ -85,18 +82,12 @@ h3 {
 	display: flex;
 	font-size: 1em;
 	padding:  10px 50px;
-	flex-direction: row;
 }
 
 .navbar a {
-	font-family: "Space Mono", monospace;
 	font-weight: 700;
-	font-style: normal;
 	display: flex;
-	color: white;
-	font-size: 1em;
 	padding:  10px 50px;
-	flex-direction: row;
 }
 
 /*----- Nav -----*/
@@ -288,7 +279,6 @@ input {
 
 .contendor-trabajos { 
 	display: flex;
-	flex-direction: row;
 	justify-content: center;
 }
 
