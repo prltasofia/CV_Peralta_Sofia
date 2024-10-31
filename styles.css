@@ -15,9 +15,15 @@ body {
 	color: #FFFFFF;
 }
 
-a {
+li {
 	font-family: "Space Mono", monospace;
 	color: white;
+	font-size: 1em;	
+
+}
+
+a {
+	font-family: "Space Mono", monospace;
 	font-size: 1em;	
 }
 
@@ -41,7 +47,6 @@ span {
 
 h1 { 
 	font-family: "Space Mono", monospace;
-	color: white;
 	font-size: 4em;
 }
 
@@ -96,13 +101,15 @@ h3 {
 
 /*----- Nav -----*/
 
-.inicio-contenedor {
-  width: 100%;
-  height: 90vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 6em;
+.principal {
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 6em;
+	gap: 20px;
 }
 
 .principal h1 {
@@ -112,23 +119,22 @@ h3 {
 
 .principal h2 {
 	display: flex;	
-	font-weight: 700;
 	font-size: 2em;
 	justify-content: center;
 	border: 1px solid;
 	border-radius: 50px;
-	margin: 30px 100px;
+	padding: 0px 40px;
 }
 
 .principal h3 {
 	display: flex;	
-	font-weight: 200;
 	font-style: italic;
-	font-size: 1.2em;
 	justify-content: center;
 	border: 1px solid;
 	border-radius: 50px;
-	margin: 0px 100px;
+	padding: 0px 40px;
+
+	
 }
 
 .principal h2:hover,h3:hover {
@@ -140,18 +146,12 @@ h3 {
 
 /*----- SOBRE MI -----*/
 
-.body-index {
-	height: 100%;
-}
-
 .contenedor-iconos {
 	width: 50%;
   	height: 90vh;
 	display: flex;
  	justify-content:center;
 	align-items: center;
-	align-content:center;
-	width: 50%;
 }
 
 .sobre-mi {
@@ -175,12 +175,13 @@ h3 {
 
 }
 
-	
-.iconos h1 { 
-	margin: 0px 20px;
+/*-----CONOCEME-----*/
+
+.iconos img { 
+	margin: 40px 12px;
 }
 
-/* CONTACTO */ 
+/*----- CONTACTO -----*/ 
 
 .formulario h2 {
 	font-family: "Space Mono", monospace;
@@ -225,13 +226,6 @@ input {
 	border-radius: 20px;
 }
 
-/*-----CONOCEME-----*/
-
-.iconos img { 
-	padding: 0px 20px;
-	position:relative;
-	top: 110%;
-}
 
 /*----- GRID -----*/
 
@@ -245,10 +239,6 @@ input {
 
 .grid-items img {
 	border-radius: 36px;
-}
-
-.contendor-descripcion {
-	width: 40%;	
 }
 
 .trabajos {
@@ -269,27 +259,26 @@ input {
 
 .contenedor-estructura {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	width: 100%;
 	height: 90vh;
    	justify-content:center;
  	align-items: center;
-  	align-content:center;
+	gap: 50px;
   
 }
 
 /*----- FLECHA VOLVER  -----*/
 
 .flecha {
-	margin: 0px 70px;
+	padding: 20px;
 }
 
 /*----- TEXTOS EN TRABAJOS -----*/
 
 .contendor-descripcion {
-	width: 40%;
+	width: 35%;
 }
-
 
 .contendor-descripcion h1 {
 	letter-spacing: -0.75px;
@@ -297,11 +286,10 @@ input {
 	margin: 20px 0px;
 	}
 
-.contendor-trabajos{ 
+.contendor-trabajos { 
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	
 }
 
 .contenedor-descripcion ul li {
@@ -311,8 +299,7 @@ input {
 	border-radius: 80px;
 	padding: 10px 20px;
 	margin: 40px 0px;
-	width: 40%;
-	
+	width: 40%;	
 }
 
 
@@ -331,13 +318,6 @@ input {
 	width: 100%;
 }
 
-/*----- MEDIA -----*/
-
-@media screen and (max-width: 600px) {
-
-    body {
-        margin: 0px 30px;
-}
 
 /*----- FUENTES -----*/
 
@@ -382,3 +362,11 @@ input {
 	font-weight: 400;
 	font-style: italic;
   }
+
+  /*----- MEDIA -----*/
+
+@media screen and (max-width: 600px) {
+
+    body {
+        margin: 0px 30px;
+}
