@@ -370,3 +370,10 @@ input {
     body {
         margin: 0px 30px;
 }
+
+@media screen and (max-width: 1200px {
+	body {
+		padding: 20px;
+	}
+	
+}
