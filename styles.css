@@ -17,14 +17,14 @@ body {
 
 li {
 	font-family: "Space Mono", monospace;
-	color: white;
 	font-size: 1em;	
 
 }
 
 a {
 	font-family: "Space Mono", monospace;
-	font-size: 1em;	
+	font-size: 1em;
+	color: #FFFFFF;	
 }
 
 p {
@@ -69,6 +69,7 @@ h3 {
 	display: flex;
 	align-content: stretch;
 	justify-content: space-between;
+	background-color: #000000;
 }
 
 
