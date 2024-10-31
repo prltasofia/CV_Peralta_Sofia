@@ -176,22 +176,20 @@ h3 {
 /*----- CONTACTO -----*/ 
 
 .formulario h2 {
-	font-family: "Space Mono", monospace;
-	color: white;
-	font-weight: 700;
-	font-size: 1.5em;
+	font-size: 2.3em;
+	padding-top: 20px;
 }
 
 .formulario-contenedor {
+	height: 90vh;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 }
 
 .formulario {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
 	align-items: center;
 	background: magenta;
 	gap: 40px;
@@ -200,24 +198,38 @@ h3 {
 	border-radius: 84px;
 	border: 5px solid black;
 	box-shadow: 12px 12px;
-	margin: 97px 260px;
+}
+
+.formulario span {
+	color: #000000;
+	font-size: 1em;
+	padding: 0px 20px;
 }
 
 form {	
 	display: flex;
 	flex-direction: column;
-	gap: 15px;
+	gap: 20px;
 }
 
 input {
-	display: flex;
-	align-items: flex-start;
-	padding: 25px 55px;
+	padding: 20px 50px;
 	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 1em;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
+label p {
+	padding-bottom: 20px;
+	font-weight: 800;
+	display: flex;
+	justify-content: center;
+}
+
+.boton-enviar {
+	display: flex;
+	justify-content: center;
+}
 
 /*----- GRID -----*/
 
@@ -359,7 +371,7 @@ input {
 @media screen and (min-width: 600px) {
 
     body {
-        margin: 0px 30px;
+        padding: 0px 10px;
 }
 
 @media screen and (max-width: 1200px {
