@@ -176,11 +176,14 @@ h3 {
 /*----- CONTACTO -----*/ 
 
 .formulario h2 {
+	display: flex;
+	justify-content: center;
 	font-size: 2.3em;
 	padding-top: 20px;
 }
 
 .formulario-contenedor {
+	width: 100%;
 	height: 90vh;
 	display: flex;
 	justify-content: center;
@@ -190,7 +193,6 @@ h3 {
 .formulario {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 	background: magenta;
 	gap: 40px;
 	padding: 20px 30px;
@@ -224,6 +226,11 @@ label p {
 	font-weight: 800;
 	display: flex;
 	justify-content: center;
+}
+
+textarea {
+	height: 112px;
+	width: 100% ;
 }
 
 .boton-enviar {
