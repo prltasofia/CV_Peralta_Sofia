@@ -37,12 +37,6 @@ span {
 	color: magenta;
 }
 
-.contenedor-decorativo {
-	position: fixed;
-	left: 605px;
-	top: 605px;
-}
-
 h1 { 
 	font-family: "Space Mono", monospace;
 	font-size: 4em;
