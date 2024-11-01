@@ -30,7 +30,6 @@ a {
 p {
 	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 1.5em;
-	color: white;
 }
 
 span {
@@ -93,7 +92,6 @@ h3 {
 /*----- Nav -----*/
 
 .principal {
-	width: 100%;
 	height: 90vh;
 	display: flex;
 	flex-direction: column;
@@ -109,7 +107,6 @@ h3 {
 }
 
 .principal h2 {
-	display: flex;	
 	font-size: 2em;
 	justify-content: center;
 	border: 1px solid;
@@ -118,14 +115,11 @@ h3 {
 }
 
 .principal h3 {
-	display: flex;	
 	font-style: italic;
 	justify-content: center;
 	border: 1px solid;
 	border-radius: 50px;
-	padding: 0px 40px;
-
-	
+	padding: 0px 40px;	
 }
 
 .principal h2:hover,h3:hover {
@@ -165,8 +159,6 @@ h3 {
 .iconos {
 	height: 60%;
 	width: 30%;
-	display: flex;
-	flex-direction: column;
 }
 
 .iconos img { 
@@ -176,14 +168,11 @@ h3 {
 /*----- CONTACTO -----*/ 
 
 .formulario h2 {
-	display: flex;
-	justify-content: center;
 	font-size: 2.3em;
 	padding-top: 20px;
 }
 
 .formulario-contenedor {
-	width: 100%;
 	height: 90vh;
 	display: flex;
 	justify-content: center;
@@ -218,6 +207,7 @@ input {
 	font-family: "IBM Plex Sans", sans-serif;
 	font-size: 1em;
 	border-radius: 10px;
+	text-align: center;
 }
 
 label p {
@@ -244,7 +234,6 @@ textarea {
 	grid-template-columns: repeat(2, 1fr);
 	grid-column-gap: 20px;
 	grid-row-gap: 1em;
-	border-radius: 36px;
 }
 
 .trabajos {
@@ -323,8 +312,6 @@ textarea {
 .footer-legal{
 	font-size: 1em;
 	position: fixed;
-	z-index: 0;
-	font-family: "IBM Plex Sans", sans-serif; 
 	color: black;
 	background-color: magenta;
 	text-align: center;
