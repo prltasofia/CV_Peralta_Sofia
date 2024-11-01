@@ -29,7 +29,6 @@ a {
 
 p {
 	font-family: "IBM Plex Sans", sans-serif;
-	font-weight: 400;
 	font-size: 1.5em;
 	color: white;
 }
@@ -405,24 +404,36 @@ body {
 /**** SOBRE MI ****/
 
 .contenedor-iconos {
+	margin: 20px;
 	padding: 30px;
-	justify-content: flex-start;
 	flex-direction: column;
-	row-gap: 20px;
+	align-content: center;
+	row-gap: 5px;
 }
 
 .iconos {
 	width: 100%;
 }
 
+.iconos img {
+	width: 19%;
+}
+
 .sobre-mi {
 	width: 100%;
+	padding-bottom: 10px;
+	box-shadow: 5px 5px;
+}
+
+.sobre-mi p {
+	padding: 45px 20px;
 }
 
 /**** TRABAJOS ****/
 
 .contenedor-estructura {
 	padding-top: 30px;
+	margin: 20px;
 	justify-content: flex-start;
 	flex-direction: column;
 }
