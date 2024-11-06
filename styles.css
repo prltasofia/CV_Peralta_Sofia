@@ -359,13 +359,6 @@ textarea {
 	font-style: italic;
   }
 
-  /*----- MEDIA -----*/
-
-@media screen and (max-width: 600px) {
-
-body {
-	font-size: 0.75em;
-}
 
 /**** NAV ****/
 .navbar a { 
@@ -454,4 +447,11 @@ body {
 	font-size: larger;
 	}
 
-}
+
+  /*----- MEDIA -----*/
+
+  @media screen and (max-width: 600px) {
+
+	body {
+		font-size: 0.75em;
+	}
